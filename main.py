@@ -6,7 +6,10 @@ import docx
 
 app = Flask(__name__)
 
-
+@app.route("/")
+def home():
+    return "Welcome To STP!"
+    
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def extract_text_from_file(file_storage):
