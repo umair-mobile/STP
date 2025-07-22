@@ -2,7 +2,7 @@ flask
 sentence-transformers
 PyMuPDF
 python-docx
-torch
+torch==2.7.1+cpu
 transformers
 scipy
 numpy
